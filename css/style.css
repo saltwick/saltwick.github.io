@@ -1,0 +1,217 @@
+html, body {
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.wrap {
+	min-height: 100%;
+	position: relative;
+}
+.rwd-line{
+	display:inline;
+}
+.header {
+	background-image: url("../res/evergreen_banner.jpg");
+	color: #000000;
+	text-align: center;
+	height: 100vh;
+	
+	background-size: cover;
+}
+.header .name{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	color: rgb(231,231,231);
+	font-size: 8em;
+	letter-spacing: .1em;
+}
+.name_sub {
+	font-size: .2em;
+	letter-spacing: .1em;
+}
+
+.header .background {
+	height:100%;
+	width: 100%;
+}
+.header .background img {
+	object-fit: none;
+}
+.mobile-header {
+	display: none;
+	text-align: center;
+	margin:auto;
+	height: 100%;
+	font-size: 4em;
+	margin-top: 2em;
+	color: rgb(231,231,231);
+}
+.welcome {
+	background-color: #000000;
+	color: #E5E5E5;
+	text-align: center;
+	font-size: 1.3em;
+	padding-top: 2em;
+	padding-bottom: 7.5em;
+	height: 10vh;
+	border-bottom: 7px solid black;
+}
+.welcome p {
+	width: 75%;
+	margin: auto;
+	padding-bottom: 3em;
+	padding-top: 3em;
+
+}
+.welcome .divider img {
+
+	margin: auto;
+	margin-top: -4em;
+	width: 100%;
+
+}
+
+
+.logo {
+	margin: auto;
+	width: 200px;
+    display: block;
+    margin-bottom: 3em
+}
+
+.logo img {
+	display: block;
+    margin: auto;
+    margin-top: -1em;
+    border-radius: 50%;
+    max-width: 100%;
+    width:100%;
+    width: auto\9; /* ie8 */
+}
+
+.content {
+	background-color: #E5E5E5;
+	color: #000000;
+	padding-bottom: 5%;
+}
+.content .box {
+    width: 75%;	
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
+    padding: 25px 50px 50px;
+    margin: 10em auto;
+    overflow:hidden;
+}
+.content .text {
+	font-size: 1.5em;
+	width: 50%;
+	text-align: left;
+	float: left;
+
+
+}
+.content .image {
+	width: 50%;
+	float: right;
+	margin:auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.image img {
+	margin: 2em auto;
+	display: block;
+	padding-top:5em;
+	width: 90%;
+	max-width: 100%;
+
+}
+
+.footer {
+	background-image: url('../res/willsboro_banner.jpg');
+	background-size: cover;
+	font-size: 2em;
+	height: 40%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.links {
+	
+	height: 30%;
+	margin: auto;
+
+}
+.footer .links {
+    margin-top: 8em;
+}
+.links table {
+	text-align: center;
+	margin: auto;	
+	border-collapse:collapse
+}
+.links td {
+	padding: 1.5em;
+	padding-bottom: 0px;
+	font-size: 2em;
+	border-bottom: 1px solid #ffffff
+
+}
+.links a {
+	color: rgb(231, 231, 231);
+}
+.links a:hover {
+	color: white;
+}
+
+.links a:visited {
+	color: white;
+}
+	
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo img {
+        display:none;
+    }
+    .rwd-line {
+    	display: block;
+    }
+
+
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}
