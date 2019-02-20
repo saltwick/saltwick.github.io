@@ -44,11 +44,15 @@ function draw() {
     car.decelerate();
   }
 
+  fill(255);
   
-
+  textSize(20);
+  text('Use the arrow keys to move the car', width/2, height/2);
+  text('The front of the car is white', width/2 + 74, height/2 + 20);
 
   car.draw();
 
+  
 }
 
 
